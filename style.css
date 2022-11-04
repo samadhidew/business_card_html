@@ -9,26 +9,32 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #333;
+  background-color: rgb(131, 185, 224);
 }
 
 .card {
   position: relative;
   width: 380px;
   height: 550px;
-  background-color: white;
+  background-color: rgb(167, 38, 38);
 }
 
 .card .lines {
   position: absolute;
   inset: 0;
-  background-color: black;
+  background-color: rgb(196, 17, 160);
   overflow: hidden;
 }
 
 .card .lines::before {
   content: "";
-  background: linear-gradient(transparent, red, green, blue, transparent);
+  background: linear-gradient(
+    transparent,
+    red,
+    rgb(208, 215, 26),
+    rgb(0, 132, 255),
+    transparent
+  );
   width: 700px;
   height: 220px;
   top: 50%;
@@ -50,7 +56,9 @@ body {
   content: "";
   position: absolute;
   inset: 3px;
-  background-color: #292929;
+  background-image: url("download.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .content {
@@ -64,10 +72,11 @@ body {
 .content img {
   width: 50%;
   border-radius: 50%;
+  border: 5px solid #555;
 }
 
 .content .username {
-  color: rgb(176, 28, 176);
+  color: rgb(136, 16, 136);
   font-size: 30px;
   margin-top: 20px;
   font-weight: bold;
