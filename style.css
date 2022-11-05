@@ -22,7 +22,7 @@ body {
 .card .lines {
   position: absolute;
   inset: 0;
-  background-color: rgb(196, 17, 160);
+  background-color: rgb(193, 96, 173);
   overflow: hidden;
 }
 
@@ -36,7 +36,7 @@ body {
     transparent
   );
   width: 700px;
-  height: 220px;
+  height: 500px;
   top: 50%;
   left: 50%;
   position: absolute;
@@ -104,7 +104,7 @@ body {
 }
 
 .services ul li {
-  padding: 8px;
+  padding: 4px;
 }
 
 .services ul li:nth-child(odd) {
@@ -112,5 +112,5 @@ body {
 }
 
 .services ul li:nth-child(even) {
-  color: rgb(89, 174, 235);
+  color: rgb(47, 137, 201);
 }
